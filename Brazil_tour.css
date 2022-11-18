@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background: url(images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 300px;
+    background-position: 30% 150%;
+  }
+  
+  .visit1 {
+    max-width: 400px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 2px auto;
+    position: relative;
+    overflow: hidden;
+  
+    text-align: center;
+    height: auto;
+  }
+  
+  section .visit1 img {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .visit1>.info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.8s;
+  }
+  
+  .visit1>.info>h4 {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 1px 3px black, 0 0 20px blue, 0 0 5px rgb(8, 8, 91);
+  }
+  
+  .visit1>.info>p {
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 0;
+    color: white;
+    text-shadow: 2px 1px 3px black, 0 0 20px blue, 0 0 5px rgb(8, 8, 91);
+  
+  }
+  
+  .visit1>.info>a {
+    background: rgba(0, 255, 255, 0.479);
+    border: 2px solid white;
+    padding: 15px 20px;
+    color: rgb(30, 13, 97);
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  
+  .visit1>.info>a:hover {
+    background: wheat;
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 23px;
+  }
+  
+  .visit1:hover .info {
+    opacity: 1;
+  }
+  
+  #txt,
+  .p1 {
+    padding: 20px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    line-height: 33px;
+  }
+  
+  #txt {
+    margin: -40px 0 0 0;
+    padding: 0;
+  }
+  
+  header h1 {
+    transform: translate(-280px, -110px);
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 65px darkblue, 0 0 10px white;
+    cursor: pointer;
+    font-size: 28px;
+  }
+  
+  
+  .visit {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 900px;
+    height: auto;
+    margin: 25px auto;
+    align-content: center;
+    border: 5px solid rgb(61, 12, 209);
+  }
+  
+  
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    background: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+  }
+  
+  
+  body {
+    background: url(images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  a[href="visit1.html"] {
+    background: none;
+    border: 2px solid white;
+    padding: 12px 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10%;
+    text-decoration: none;
+    background: rgba(0, 255, 255, 0.362);
+    font-weight: bold;
+  }
+  
+  a[href="visit1.html"]:hover {
+    background: wheat;
+    color: blue;
+  }
+  
+  
+  .text {
+    max-width: 900px;
+    padding-top: 110px;
+  }
+  
+  
+  
+  [src="images/beach.jpg"],
+  [src="images/bonito.jpg"],
+  main .text .Copacabana {
+    border-radius: 10%;
+    box-shadow: 2px 2px 3px blue;
+  }
+  
+  [src="images/bonito.jpg"],
+  [src="images/Amazon_rainforest2.jpg"] {
+    height: 350px !important;
+  }
+  
+  header>h1>a {
+    text-decoration: none;
+    background-color: rgba(223, 219, 233, 0.518);
+    padding: 0 5px;
+    border-radius: 10%;
+  }
+  
+  header>h1:hover {
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  address {
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+    font-family: cursive;
+    margin: 15px 0 35px 0;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  #p1 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .second_img {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .second_img>img {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .img>img:hover {
+    transform: scale(2.5);
+  }
+  
+  section>.visit_img {
+    max-width: 900px;
+    width: 100%;
+    display: block;
+  }
+  
+  
+  
+  form {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 900px;
+    width: 100%;
+    align-content: center;
+    padding: 30px;
+    align-items: center;
+  }
+  
+  form>input {
+    padding: 10px 15px;
+    border-radius: 10%;
+    border: 3px solid blue;
+    width: 60%;
+    height: 60px;
+  }
+  
+  input[name="Message"] {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    padding: 15px 20px;
+    border-radius: 10%;
+    border: 3px solid blue;
+    background: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -30px;
+    width: 150px;
+  }
+  
+  button[type="submit"]:hover {
+    font-size: 16px;
+    background: wheat;
+    color: blue;
+  }
+  
+  input[type="reset"] {
+    padding: -5px 20px;
+    border-radius: 10%;
+    border: 3px solid blue;
+    background: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    margin-top: -20px;
+  }
+  
+  input[type="reset"]:hover {
+    font-size: 16px;
+    background: wheat;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contact {
+    color: blue;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  footer {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    background: rgb(217, 234, 234);
+    color: blue;
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .main_footer_itm>ul {
+    list-style: none;
+  }
+  
+  .main_footer_itm>li {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .main_footer_itm>li:hover {
+    color: brown;
+  }
+  
+  .main_footer {
+    padding: 5px 7px;
+    display: flex;
+    flex-flow: wrap;
+  }
+  
+  .main_footer_itm {
+    min-width: 200px;
+    padding: 5px;
+  
+  }
+  
+  .footer_h1 {
+    margin: 40px 0;
+    color: blue;
+    font-size: 25px;
+  }
+  
+  .subscribe_h1 {
+    margin-left: 50px;
+  }
+  
+  footer form {
+    margin-top: -40px;
+    position: relative;
+  }
+  
+  .ft_input {
+    padding: 10px 25px;
+    border-radius: 10%;
+    border: 3px solid blue;
+    text-align: center;
+    height: 70%;
+    width: 100%;
+    margin: 15px 0 0 -60px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    color: blue;
+  }
+  
+  input[value="Subscribe"]:hover {
+    background-color: aqua;
+  }
+  
+  input[value="Subscribe"] {
+    cursor: pointer;
+    width: 60%;
+    font-size: 17px;
+    padding-right: 15px;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 900px;
+    padding: 20px;
+    flex-flow: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer_social {
+    padding: 50px;
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  .footer_social_ul {
+    list-style: none;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer_social_ul li {
+    margin: 5px;
+  }
+  
+  .footer_social_ul>li>a>img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer_social_ul>li>a>img:hover {
+    border: 3px solid aqua;
+    border-radius: 50%;
+    width: 45px;
+    height: 40px;
+  }
+  
+  .footer_copyright {
+    padding: 20px;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer_copyright_ul {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    list-style: none;
+  }
+  
+  .footer_copyright_ul>li {
+    margin: 15px;
+    flex: 1;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .footer_copyright_ul>li:hover {
+    color: brown;
+  }
+  
+  main>.tours {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 900px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main>.tours>select {
+    width: 50%;
+    margin: 0 0 40px 0;
+    padding: 12px 17px;
+    font-size: 18px;
+    border-radius: 10%;
+    color: rgb(39, 39, 61);
+    border: 5px solid aqua;
+  }
+  
+  main>.tours>p {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 1px 3px rgb(6, 6, 101), 0 0 15px blue, 0 0 15px rgb(223, 223, 235);
+  }
+  
+  #tours {
+    padding-top: 50px;
+  }
+  
+  
+  
+  .top {
+    position: fixed;
+    width: 55px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 40%;
+    z-index: 2;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-left: -10px;
+  }
+  
+  .nav-link:hover {
+    text-shadow: 15px 17px 40px aqua;
+  }
+  
+  .nav-link,
+  .text h1 {
+    color: rgb(24, 97, 192) !important;
+    text-shadow: 1px 1px 2px black, 0 0 35px rgb(8, 231, 231), 0 0 10px darkblue;
+    font-family: cursive;
+    font-size: 21px !important;
+  }
+  
+  .text h1 {
+    font-size: 35px !important;
+    text-align: center;
+    margin-top: 35px;
+  }
+  
+  [src="images/Brazil_logo.jpg"] {
+    width: 190px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+  }
+  
+  [src="images/Christ_the_Redeemer.jpg"],
+  [src="images/1.jpg"],
+  [src="images/Copacabana.jpg"],
+  [src="images/Sugarloaf_mountain.jpg"],
+  [src="images/iguacu.jpg"],
+  [src="images/amazon_rainforest.jpg"],
+  [src="images/snorkel.jpg"] {
+    box-shadow: 0px 8px 16px 10px rgb(54, 224, 216);
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    float: left;
+    margin: 20px 30px 20px 0;
+    width: 40%;
+    height: auto;
+  }
+  
+  [src="images/bonito.jpg"] {
+    box-shadow: 0px 8px 16px 10px rgb(54, 224, 216);
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    margin: 20px;
+    width: 100%;
+    height: 350px;
+  }
+  
+  @media screen and (max-width:1096px) {
+    .text {
+      margin-top: 20px;
+    }
+  }
+  
+  @media screen and (max-width:707px) {
+    .text {
+      margin-top: 60px;
+    }
+  }
+  
+  @media screen and (max-width:700px) {
+  
+    [src="images/Christ_the_Redeemer.jpg"],
+    [src="images/1.jpg"],
+    [src="images/Copacabana.jpg"],
+    [src="images/Sugarloaf_mountain.jpg"],
+    [src="images/iguacu.jpg"],
+    [src="images/amazon_rainforest.jpg"],
+    [src="images/snorkel.jpg"] {
+      clear: both;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:700px) {
+    [src="images/bonito.jpg"] {
+      clear: both;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:668px) {
+    .text {
+      margin-top: 120px;
+    }
+  }
+  
+  
+  @media screen and (min-width:576px) and (max-width:679px) {
+    header h1 {
+      transform: translate(-280px, -40px);
+    }
+  }
+  
+  @media screen and (max-width:575px) {
+    .text {
+      margin-top: -70px;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width:480px) {
+  
+    html,
+    body {
+      overflow-x: hidden;
+    }
+  }
+  
+  @media screen and (max-width:470px) {
+  
+    .visit {
+      margin-left: -15px;
+    }
+  }
+  
+  @media screen and (max-width:433px) {
+    .img>img {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:362px) {
+    main div .img_div>img {
+      max-width: 100%;
+    }
+  }
+  
+  
+  @media screen and (max-width:350px) {
+    .footer_social_ul>li>a>img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .footer_social_ul {
+      margin-left: -20px;
+      display: flex;
+      flex-flow: wrap;
+    }
+  }
+  
+  @media screen and (max-width:295px) {
+    .text {
+      margin-top: 0;
+    }
+  }
+  
